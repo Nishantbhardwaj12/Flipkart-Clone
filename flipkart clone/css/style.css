@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 65px;
+    background-color: blueviolet;
+    color: white;
+    border: 2px solid blue;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    background-color: blueviolet;
+    width: 100%;
+    height: 65px;
+}
+
+.logo {
+    padding: 5px;
+    /* width: 244px;
+    height: 73px; */
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    align-items: center;
+    list-style: none;
+    /* display: flex;
+    justify-content: flex-start; */
+    padding: 32px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    margin: 15px;
+    width: 355px;
+    height: 25px;
+    padding: 0 11px 0 10px;
+    border-radius: 10px;
+    margin: 0 10px 5px 25px;
+}
+
+.slidebar {
+    margin: 20px 50px;
+
+}
+
+h1 {
+    margin: 20px;
+    padding: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+@keyframes nishant {
+    from {
+        width: 250px;
+        height: auto;
+    }
+
+    t0 {
+        width: 255px;
+        height: auto;
+    }
+
+}
+
+.card {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.card-items {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 90px 20px 15px;
+
+}
+.card img:hover{
+    width: 255px;
+    height: auto;
+}
+
+p {
+    text-align: center;
+    font-size: medium;
+    text-size-adjust: 40%;
+}
+
+
+footer {
+    height: 10vh;
+    background-color: black;
+    color: white;
+}
